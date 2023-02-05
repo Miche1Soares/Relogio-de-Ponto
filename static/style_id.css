@@ -1,0 +1,47 @@
+.box-confirm-id{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+.box-confirm-id p{
+    width: 100%;
+}
+
+.box-confirm-id a{
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin: 2px 0;
+    border-radius: 10px;
+}
+
+.box-confirm-id a p{
+    margin-bottom: 0;
+}
+
+.btn_id_confirm{
+    position: relative;
+    top: 0;
+    transform: translateX(0);
+    background-color: green;
+    text-align: center;
+}
+
+
+.btn_id_not{
+    position: relative;
+    top: 0;
+    transform: translateX(0);
+    background-color: red;
+    text-align: center;
+}
